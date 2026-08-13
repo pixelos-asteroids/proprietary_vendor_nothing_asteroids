@@ -7,8 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
-    vendor/nothing/asteroids/proprietary/odm/overlayfs_origin/base/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_ODM)/overlayfs_origin/base/etc/camera/camxoverridesettings.txt \
-    vendor/nothing/asteroids/proprietary/odm/overlayfs_origin/pro/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_ODM)/overlayfs_origin/pro/etc/camera/camxoverridesettings.txt \
     vendor/nothing/asteroids/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/nothing/asteroids/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/nothing/asteroids/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
@@ -393,7 +391,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
     vendor/nothing/asteroids/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/nothing/asteroids/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/nothing/asteroids/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/nothing/asteroids/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/nothing/asteroids/proprietary/vendor/etc/perf/targetavcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetavcsysnodesconfigs.xml \
     vendor/nothing/asteroids/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
@@ -629,7 +626,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/com.qti.sensormodule.arcanine_shinetech_s5kjn5_tele.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.arcanine_shinetech_s5kjn5_tele.bin \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/com.qti.sensormodule.arcanine_shinetech_s5kkd1_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.arcanine_shinetech_s5kkd1_front.bin \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/com.qti.tuned.arcanine_back_imx882.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.arcanine_back_imx882.bin \
-    vendor/nothing/asteroids/proprietary/vendor/lib64/camera/com.qti.tuned.arcanine_back_s5kjn5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.arcanine_back_s5kjn5.bin \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/com.qti.tuned.arcanine_imx355_uw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.arcanine_imx355_uw.bin \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/com.qti.tuned.arcanine_imx355_uw_pro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.arcanine_imx355_uw_pro.bin \
     vendor/nothing/asteroids/proprietary/vendor/lib64/camera/com.qti.tuned.arcanine_s5kgn9_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.arcanine_s5kgn9_wide.bin \
